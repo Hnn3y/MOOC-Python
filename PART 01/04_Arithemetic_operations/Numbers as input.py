@@ -25,3 +25,7 @@ print("You were", age, "years old in 2021")
 # Reading the input with the input function and converting it with the int function can be achieved in one go:
 year = int(input("Which year were you born? "))
 print(f"Your age at the end of the year 2021: {2021 - year}" )
+
+name = input("What is your name? ")
+input_str = input("Which year were you born? ")
+print(f"Hi {name}, you will be {2021 - int(input_str)} years old at the end of the year 2021" )
