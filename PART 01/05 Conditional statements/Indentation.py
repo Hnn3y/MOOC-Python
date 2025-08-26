@@ -1,0 +1,1 @@
+In Python, indentation is how the interpreter knows which lines belong together inside a block of code (like an if, for, while, def, etc.). Unlike many other languages that use curly braces {} or keywords like end, Python uses whitespace (spaces or tabs) to define code structure.
