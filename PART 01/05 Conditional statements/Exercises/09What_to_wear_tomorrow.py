@@ -23,3 +23,8 @@
 #What is the weather forecast for tomorrow? Temperature: 3 
 #Will it rain (yes/no): yes 
 #Wear jeans and a T-shirt I recommend a jumper as well Take a jacket with you Make it a warm coat, actually I think gloves are in order Don't forget your umbrella!
+
+temp = int(input("What is the weather forecast for tomorrow? Temperature: "))
+rain = input("#Will it rain (yes/no): ")
+
+print(f"#Wear jeans and a T-shirt", end="")
