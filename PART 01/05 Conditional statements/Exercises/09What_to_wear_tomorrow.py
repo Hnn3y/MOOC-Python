@@ -27,4 +27,7 @@
 temp = int(input("What is the weather forecast for tomorrow? Temperature: "))
 rain = input("#Will it rain (yes/no): ")
 
-print(f"#Wear jeans and a T-shirt", end="")
+suggest = "Wear jeans and a T-shirt"
+
+if temp <= 20:
+   suggest += " I recommend a jumper as well"
