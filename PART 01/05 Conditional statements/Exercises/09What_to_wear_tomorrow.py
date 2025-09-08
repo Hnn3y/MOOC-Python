@@ -31,3 +31,14 @@ suggest = "Wear jeans and a T-shirt"
 
 if temp <= 20:
    suggest += " I recommend a jumper as well"
+
+if temp <= 10:
+   suggest += " Take a jacket with you"
+
+if temp <= 5:
+   suggest += " Make it a warm coat, actually I think gloves are in order"
+
+if rain == "yes":
+    suggest += " Don't forget your umbrella!"
+
+print(suggest)
