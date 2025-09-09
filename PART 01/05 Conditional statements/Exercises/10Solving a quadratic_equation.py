@@ -15,7 +15,14 @@
 #Value of c:-8
 #The roots are 2.0 and -4.0
 
-value_a = int(input("#Value of a: "))
-value_b = int(input("#Value of b: "))
-value_c = int(input("#Value of c: "))
+a = int(input("#Value of a: "))
+b = int(input("#Value of b: "))
+c = int(input("#Value of c: "))
+
+D = b*b - 4*a*c
+
+root_1 = (-b + sqrt(D)) / 2*a
+root_2 = (-b - sqrt(D)) / 2*a
+
+print(f"he roots are {root_1} and {root_2}")
 
