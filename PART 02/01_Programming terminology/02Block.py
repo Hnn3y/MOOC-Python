@@ -8,3 +8,5 @@ if age > 17:
     # end of the conditional block
 
 print("This here belongs to another block")
+
+# In Python blocks are expressed by indenting all code in the block by the same amount of whitespace.
