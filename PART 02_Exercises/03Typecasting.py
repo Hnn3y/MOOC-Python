@@ -2,5 +2,8 @@
 
 num = float(input("Please type in a number: "))
 
-print(f"Integer part: {int(num)}")
-print(f"Decimal part: {num:.2f}")
+integer = int(num)
+decimal = round(num - integer, 3)
+
+print(f"Integer part: {integer}")
+print(f"Decimal part: {decimal}")
