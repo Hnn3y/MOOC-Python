@@ -3,7 +3,7 @@
 num = float(input("Please type in a number: "))
 
 integer = int(num)
-decimal = round(num - integer, 3)
+decimal = num - integer
 
 print(f"Integer part: {integer}")
 print(f"Decimal part: {decimal}")
