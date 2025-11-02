@@ -8,3 +8,15 @@
 
 # If the user inputs the number zero, the program should stop asking for numbers and exit the loop.
 
+from math import sqrt
+
+while True:
+   num = int(input("Please type in a number: ")) 
+   if num == 0:
+     break
+   elif num < 0:
+      print(f"Invalid number")
+   else:
+      print(f"{sqrt(num)}")
+
+print(f"Exiting...")
