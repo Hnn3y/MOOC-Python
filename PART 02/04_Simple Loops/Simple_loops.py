@@ -34,3 +34,5 @@ else:
 
 # --> Debugging print statements in loops
 
+# --> Concatenating strings with the + operator
+
